@@ -29,3 +29,8 @@ life_left_months = death_year_months - current_age_in_months
 
 # Results:
 print(f"You have {round(life_left_days)} days, {round(life_left_weeks)} weeks and {round(life_left_months)} months left.")
+
+# Feedback:
+# 1. Good job, the output is exactly as expected but the code could be a little more polished as it has some redundant lines of code.
+# 2. Instead of converting both the death age & the current age to days, weeks, and months to perform operations on them the whole process could be reduced down to this:
+# 3. Subtract the current age from the death age and then convert the answer into days, weeks and months.
