@@ -37,5 +37,5 @@ print(f"Each person should pay: ${bill_paid_by_each}")
 
 # Update:
 # Turns out there's no substitute for math :P
-# All the string formatting is doing is... well string formatting, i.e. It isn't really rounding anything, its just getting rid of the decimal points after the 2nd decimal place & if it placing a "0" if there is no 2nd decimal place.
-# Meaning, there's still a need to round the final answer as we need an accurate answer (which we get by using rounding) & then displaying the final answer by using string formatting ("{:.2f}.format(whatEver)") :D
+# All the string formatting is doing is... well string formatting, i.e. It isn't really rounding anything, its just getting rid of the decimal points after the 2nd decimal place & placing a "0" in the 2nd place if there's no 2nd decimal place.
+# Meaning, there's still a need to round the final answer as we need an accurate answer (which we get by using rounding) & then displaying the final answer by using string formatting ("{:.2f}"".format(whatEver)) :D
