@@ -6,7 +6,7 @@
 # Data Types
 # 1. String
 # Subscript (Process = subscripting)
-# "Hello"[n], where n (the index) = any integer from 0 to len(Hello) - 1" (as even though there are 5 lettters, the last digit will have an index of "4") (Always remember computers always count from 0's.)
+# "Hello"[n], where n (the index) = any integer from 0 to len(Hello) - 1" (as even though there are 5 letters, the last digit will have an index of "4") (Always remember computers always count from 0's.)
 
 # Printing the 1st character of the string - "Hello"
 print("The 1st character of the word Hello is " + "Hello"[0])
@@ -25,7 +25,7 @@ print("123" + "345")
 # This works like you would normally expect.
 print(123 + 345)
 
-# Commonly a number like 123456789 would be represented like this => 123,456,789 or 12,34,56,789 by using "," to seperate the number and make it easier to read for us humans. (But computers don't need that, and you can't add commas to your numbers in your code.) 
+# Commonly a number like 123456789 would be represented like this => 123,456,789 or 12,34,56,789 by using "," to separate the number and make it easier to read for us humans. (But computers don't need that, and you can't add commas to your numbers in your code.)
 print(123456789)
 # Instead you could do this: (Adding "_" to your numbers can be used to make it easier for us "humans" to read the numbers, but python ignores the _'s and runs the code like usual.)
 print(123_456_789) 
