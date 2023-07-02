@@ -32,3 +32,11 @@ if year % 4 == 0:
         print(f"{year} is a leap year :D")
 else:
     print(f"{year} is not a leap year :(")
+
+# A "small" observation I made:
+# 1. I found that breaking down the leap year conditions into multiple if statements and focusing on the immediate condition helped in understanding the logic more clearly. 
+# 2. By first handling the else block and then moving on to the nested if statements, I could avoid getting overwhelmed by nested conditions and potential confusion.
+# 3. This problem-solving technique allowed me think clearly & not get lost. 
+# 4. It redirected my focus to what was right in front of me and prevented me from falling into a rabbit hole of nested conditions. 
+# 5. Additionally, drawing the flowchart and writing the pseudoCode beforehand proved to be helpful for understanding the problem and guiding the implementation. 
+# 6. Also, I feel I could now rely on this technique and just jump straight to write the pseudoCode without the flowchart :D
