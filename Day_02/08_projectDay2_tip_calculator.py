@@ -33,9 +33,9 @@ print(f"Each person should pay: ${bill_paid_by_each}")
 
 # Feedback:
 # 1. The solution works as intended, but the price should be printed up till 2 decimal places, Try using 150 for amount, 12 for tip and 5 people. The old solution (using round) would give 33.6, instead of 33.60.
-# 2. So this is more of a formatting problem, than a mathematical rounding one. So we'll use try using formatting instead of using math, using the format function.
+# 2. So this is more of a formatting problem, than a mathematical rounding one. So we'll try using formatting instead of using math, using the format function.
 
 # Update:
 # Turns out there's no substitute for math :P
 # All the string formatting is doing is... well string formatting, i.e. It isn't really rounding anything, its just getting rid of the decimal points after the 2nd decimal place & placing a "0" in the 2nd place if there's no 2nd decimal place.
-# Meaning, there's still a need to round the final answer as we need an accurate answer (which we get by using rounding) & then displaying the final answer by using string formatting ("{:.2f}"".format(whatEver)) :D
+# Meaning, there's still a need to round the final answer as we need an accurate answer (which we get by using rounding) & then displaying the final answer by using string formatting ("{:.2f}".format(whatEver)) :D
