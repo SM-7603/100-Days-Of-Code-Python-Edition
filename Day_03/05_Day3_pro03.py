@@ -40,3 +40,20 @@ else:
 # 4. It redirected my focus to what was right in front of me and prevented me from falling into a rabbit hole of nested conditions. 
 # 5. Additionally, drawing the flowchart and writing the pseudoCode beforehand proved to be helpful for understanding the problem and guiding the implementation. 
 # 6. Also, I feel I could now rely on this technique and just jump straight to write the pseudoCode without the flowchart :D
+
+# Actually a better, and more intuitive method might just be to solve nested conditional statements, from outside to inside:
+# this is the outer most condition
+# if (condition):
+#   do something
+# else:
+#   do something else
+# once 👆this👆 has been done, we can now focus on the inner conditions
+
+# and then we keep going on like this, and keep building the conditional chain 😎✌
+# if (condition):
+#   if (condition 2):
+#       do something
+#   else:
+#       do something else
+# else:
+#   do something else
