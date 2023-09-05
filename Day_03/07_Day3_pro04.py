@@ -55,3 +55,14 @@ elif size == "L":
     if extra_cheese == "Y":
         bill += 1
 
+# store the formatted output as an fString
+
+output_message = f"Your final bill is: ${round(bill, 2)}."
+
+# print the output
+
+print("========================")
+
+print(output_message)
+
+print("========================")
