@@ -28,6 +28,9 @@ extra_cheese = input("Do you want extra cheese? Y or N: ")
 
 # write you code below 👇👇👇
 
+# Commenting out Method 1
+
+"""
 # attempt 1 (obviously unoptimized)
 
 # create the if-else condition
@@ -66,6 +69,7 @@ print("========================")
 print(output_message)
 
 print("========================")
+"""
 
 # Method 2 - Optimized solution
 
