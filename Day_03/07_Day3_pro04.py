@@ -34,7 +34,7 @@ extra_cheese = input("Do you want extra cheese? Y or N: ")
 
 # variable for bill
 
-bill = 0 # setting a default value
+bill = 0  # setting a default value
 
 if size == "S":
     bill += 15
@@ -64,5 +64,37 @@ output_message = f"Your final bill is: ${round(bill, 2)}."
 print("========================")
 
 print(output_message)
+
+print("========================")
+
+# Method 2 - Optimized solution
+
+# set default value of bill
+
+bill = 0
+
+# setting the basic price for the pizza
+
+if size == "S":
+    bill += 15
+elif size == "M":
+    bill += 20
+else:
+    bill += 25
+
+# setting the prices for the toppings
+
+if add_pepperoni == "Y":
+    if size == "S":
+        bill += 2
+    else:
+        bill += 3
+
+if extra_cheese == "Y":
+    bill += 1
+
+print("========================")
+
+print(f"Your final bill is ${round(bill, 2)}.")
 
 print("========================")
